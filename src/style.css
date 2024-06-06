@@ -1,3 +1,4 @@
+/*general*/
 body{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.7), 
@@ -20,6 +21,7 @@ p{
     font-family:cursive;
     font-size:x-large;
     font-weight:900;
+    margin-bottom:0;
 }
 
 nav{
@@ -46,4 +48,41 @@ button:hover{
     color:white;
     transition:0.3s;
     cursor: pointer;
+}
+
+.container{
+    display:flex;
+    background-color: rgb(25, 24, 24);
+}
+
+.container:before{
+    content:"";
+    background-color:rgb(25, 24, 24);
+    position:absolute;
+    height:600px;
+    width:800px;
+    top:30%;
+    left:30%;
+    z-index:-1;
+
+}
+
+.chefImage{
+    border:5px white solid;
+    margin-right:4rem;
+}
+
+.about-text{
+    justify-self:right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:400;
+    font-size:medium;
+}
+
+#description{
+    width:18rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:400;
+    font-size:large;
+    margin-top:4rem;
 }
