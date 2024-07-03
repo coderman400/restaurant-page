@@ -92,9 +92,29 @@ button:hover{
 }
 
 #menu-container{
-    background-color: beige;
+    background-color: rgb(54, 23, 8);
     opacity:90%;
     margin-top:5rem;
     height:200vh;
     width:70vw;
+}
+
+.menu-item{
+    display:flex;
+    flex-direction: row;
+    padding:2rem;
+    height:20rem;
+}
+
+.right-div{
+    display:flex;
+    flex-direction:column;
+    margin-left:9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    font-size:medium;
+}
+
+.menu-item p{
+    color:rgb(216, 208, 208);
 }
