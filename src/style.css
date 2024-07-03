@@ -11,11 +11,14 @@ body{
 #content{
     display:flex;
     flex-direction: column;
-    margin-top:15rem;
+
     justify-content: center;
     align-items: center;
 }
 
+#home-div{
+    margin-top:15rem;
+}
 p{
     color:white;
     font-family:cursive;
@@ -51,6 +54,7 @@ button:hover{
 }
 
 .container{
+    margin-top:15rem;
     display:flex;
     background-color: rgb(25, 24, 24);
 }
@@ -85,4 +89,12 @@ button:hover{
     font-weight:400;
     font-size:large;
     margin-top:4rem;
+}
+
+#menu-container{
+    background-color: beige;
+    opacity:90%;
+    margin-top:5rem;
+    height:200vh;
+    width:70vw;
 }
